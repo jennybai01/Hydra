@@ -1,13 +1,11 @@
 #include "gamemodel.h"
-//#include "view.h"
 #include "player.h"
-//#include "observer.h"
 #include <iostream>
 #include <cstddef>
 #include <string>
 using namespace std;
 
-int main(int argc, char *argv[]) { // if testing, first arg is -testing, second optional arg is unsigned seed
+int main(int argc, char *argv[]) { // if testing, first arg is -testing, second optional arg is unsigned seed for random generation (for deck shuffling)
 	bool testing = false;
 	unsigned seed = 1;
 	if (argc > 1) {
